@@ -470,7 +470,9 @@ def add_optimised_portfolio_to_app(allocations, uid):
     print(allocations)
     try:
         # Create a portfolio
-        portfolio_id = create_portfolio(uid, 'Optimised Portfolio', '-')
+        portfolio = create_portfolio(uid, 'Optimised Portfolio', '-')
+        portfolio_id = portfolio.id
+        
         print(f"Created portfolio with ID {portfolio_id}")
 
         # Iterate over allocations and create a transaction for each asset
