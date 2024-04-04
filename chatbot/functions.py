@@ -2,9 +2,11 @@ import time
 import yfinance as yf
 import json
 from openai import OpenAI
-client = OpenAI(api_key="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")
+import os
+from dotenv import load_dotenv
 
-ASSISTANT_ID = "asst_MYGwvgfuCnI1ckaTfhLSE1Zs"
+client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
+ASSISTANT_ID = os.getenv("ASSISTANT_ID")
 
 def submit_message(assistant_id, thread, user_message):
     client.beta.threads.messages.create(

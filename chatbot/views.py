@@ -21,9 +21,9 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-SERPAPI_API_KEY = os.getenv("SERPAPI_API_KEY")
 client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 ASSISTANT_ID = os.getenv("ASSISTANT_ID")
+SERPAPI_API_KEY = os.getenv("SERPAPI_API_KEY")
 FMP_APIKEY = os.getenv("FMP_APIKEY")
 
 
