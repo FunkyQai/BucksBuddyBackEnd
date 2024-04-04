@@ -1,0 +1,21 @@
+Portfolio Information:
+User ID (uid): 2
+Portfolio ID (pid): 31
+Name: Qai Lee
+Notes: retirement investments
+Date Created: 2024-04-04 16:25:13.151712+00:00
+
+**Portfolio value, dividends and fees**
+{
+    "portfolio value": 0,
+    "Amount invested": 0.0,
+    "Percentage change": 0,
+    "Realised P/L": 0.0,
+    "Total fees": 0.0,
+    "Profit": 0.0,
+    "Profit percentage change": 0,
+    "Annual dividends": 0,
+    "Monthly dividends": 0.0
+}
+
+**Portfolio asset allocation and Metrics**
