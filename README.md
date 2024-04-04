@@ -5,7 +5,7 @@ This is the Django backend code for BucksBuddy, an investment portfolio manageme
 The backend is organized into several Django apps, each handling different functionalities:
 
 - `accounts`: Handles user accounts and authentication.
-- `asset`: Manages the assets in the portfolio.
+- `asset`: Manages asset information retrieval functionality.
 - `portfolio`: Handles the portfolio management functionality.
 - `chatbot`: Manages the GPT chatbot functionality.
 - `core`: Handles core functionalities of the backend.
