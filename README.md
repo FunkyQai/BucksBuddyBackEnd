@@ -6,12 +6,12 @@ This is the Django backend code for BucksBuddy, an investment portfolio manageme
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/yourusername/bucksbuddy.git
+    git clone https://github.com/FunkyQai/BucksBuddyBackEnd.git
     ```
 
 2. Navigate to the project directory:
     ```bash
-    cd bucksbuddy
+    cd BucksBuddyBackEnd
     ```
 
 3. Install the required packages:
