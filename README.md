@@ -61,6 +61,7 @@ SERPAPI_API_KEY: [SERP API](https://www.searchapi.io/?gad_source=1&gclid=Cj0KCQj
 ## Running the Application
 
 To run the application, use the following command:
+
     ```bash
     python manage.py runserver
     ```
